@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="button_actions_icons">
+        <item>@drawable/ic_map</item>
+        <item>@drawable/add_contact</item>
+        <item>@drawable/ic_call_made</item>
+        <item>@drawable/phone_message</item>
+        <item>@drawable/email_send</item>
+        <item>@drawable/website</item>
+        <item>@drawable/wifi</item>
+        <item>@drawable/calendar_plus</item>
+        <item>@drawable/ic_search</item>
+        <item>@drawable/ic_share_white</item>
+        <item>@drawable/ic_content_copy</item>
+    </integer-array>
+
+    <integer-array name="button_actions_names">
+        <item>@string/btn_title_open_map</item>
+        <item>@string/btn_title_add_contact</item>
+        <item>@string/btn_title_dial_phone</item>
+        <item>@string/btn_title_send_sms</item>
+        <item>@string/btn_title_send_email</item>
+        <item>@string/btn_title_open_url</item>
+        <item>@string/btn_title_connect_wifi</item>
+        <item>@string/btn_title_add_event</item>
+        <item>@string/btn_title_search</item>
+        <item>@string/btn_title_share</item>
+        <item>@string/btn_title_copy</item>
+    </integer-array>
+
+    <integer-array name="viewpager_page_images">
+        <item>@drawable/header_image1</item>
+        <item>@drawable/header_image2</item>
+        <item>@drawable/header_image3</item>
+        <item>@drawable/header_image4</item>
+    </integer-array>
+
+    <integer-array name="viewpager_page_colors">
+        <item>@color/colorHeaderOne</item>
+        <item>@color/colorHeaderTwo</item>
+        <item>@color/colorHeaderThree</item>
+        <item>@color/colorHeaderFour</item>
+    </integer-array>
+
+    <integer-array name="create_button_images">
+        <item>@drawable/qrcode</item>
+        <item>@drawable/text</item>
+        <item>@drawable/website</item>
+        <item>@drawable/phone</item>
+        <item>@drawable/contacts</item>
+        <item>@drawable/email</item>
+        <item>@drawable/message</item>
+        <item>@drawable/location</item>
+        <item>@drawable/wifi</item>
+    </integer-array>
+
+    <integer-array name="create_button_titles">
+        <item>@string/option_generate</item>
+        <item>@string/text</item>
+        <item>@string/website</item>
+        <item>@string/telephone</item>
+        <item>@string/contacts</item>
+        <item>@string/email</item>
+        <item>@string/message</item>
+        <item>@string/location</item>
+        <item>@string/wifi</item>
+    </integer-array>
+
+    <integer-array name="create_button_colors">
+        <item>@color/optionColorOne</item>
+        <item>@color/colorHeaderOne</item>
+        <item>@color/colorHeaderSix</item>
+        <item>@color/colorHeaderSeven</item>
+        <item>@color/colorHeaderTwo</item>
+        <item>@color/colorHeaderEight</item>
+        <item>@color/colorHeaderThree</item>
+        <item>@color/colorHeaderFive</item>
+        <item>@color/colorHeaderNine</item>
+    </integer-array>
+
+</resources>

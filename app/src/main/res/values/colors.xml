@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="optionColorOne">#4dbdf0</color>
+    <color name="colorHeaderOne">#2ab0ed</color>
+    <color name="colorHeaderTwo">#2d7db8</color>
+    <color name="colorHeaderThree">#537b9c</color>
+    <color name="colorHeaderFour">#dee5ed</color>
+    <color name="colorHeaderFive">#667485</color>
+    <color name="colorHeaderSix">#009ae0</color>
+    <color name="colorHeaderSeven">#1270b5</color>
+    <color name="colorHeaderEight">#3a5d7a</color>
+    <color name="colorHeaderNine">#56606e</color>
+    <color name="accent_color">@color/colorHeaderTwo</color>
+    <color name="statusBarColor">@color/colorHeaderTwo</color>
+    <color name="navigationBarColor">@android:color/black</color>
+    <color name="drawerArrowColor">@android:color/white</color>
+    <color name="backgroundDeletion">#FFE5E5E5</color>
+    <color name="backgroundDeletionSwipe">#FFF44336</color>
+    <color name="buttonOne">#1871ed</color>
+    <color name="buttonTwo">#133de8</color>
+    <color name="buttonThree">#13eb9b</color>
+    <color name="buttonFour">#e3ab10</color>
+    <color name="buttonFive">#d64f87</color>
+    <color name="buttonSix">#43d9a9</color>
+    <color name="buttonSeven">#41bdd9</color>
+    <color name="buttonEight">#e89520</color>
+    <color name="buttonNine">#e65d1e</color>
+    <color name="buttonTen">#5361bd</color>
+    <color name="buttonEleven">#23ad81</color>
+</resources>

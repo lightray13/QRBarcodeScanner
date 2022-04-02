@@ -1,0 +1,45 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.2'
+        
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext {
+    butterKnifeVersion = '10.2.1'
+    dagger2Version = '2.8'
+    materialVersion = '1.2.1'
+    calligraphyVersion = '2.3.0'
+    materialViewPagerVersion = '1.2.3'
+    materialTabStripVersion = '1.1.0'
+    kenburnsViewVersion = '1.0.7'
+    glideVersion = '4.11.0'
+    zxingVersion = '1.9.13'
+    gsonVersion = '2.8.6'
+    roomRuntimeVersion = '1.1.1'
+    roomCompilerVersion = '1.1.1'
+    rxJavaVersion = '2.2.13'
+    rxAndroidVersion = '2.1.1'
+    powerMenuVersion = '2.1.2'
+}

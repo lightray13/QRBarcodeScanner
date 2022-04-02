@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item">
+
+    <TextView
+        style="@style/TextStyle.Title"
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorHeaderTwo"/>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp">
+
+        <RadioButton
+            style="@style/TextStyle.Title"
+            android:id="@+id/rb_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorHeaderNine"
+            android:checked="true"
+            android:text="@string/network_encryption_wpa" />
+
+        <RadioButton
+            style="@style/TextStyle.Title"
+            android:id="@+id/rb_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:textColor="@color/colorHeaderNine"
+            android:text="@string/network_encryption_wep" />
+
+        <RadioButton
+            style="@style/TextStyle.Title"
+            android:id="@+id/rb_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:textColor="@color/colorHeaderNine"
+            android:text="@string/network_encryption_none" />
+    </RadioGroup>
+
+</LinearLayout>
